@@ -1,0 +1,8 @@
+<div name="file_container"> 
+    <form>
+        <p class="">Browse file:</p>
+        <input id="myForm" type="file" name="file" accept=".txt" class=""
+        (change)="coutWordsFromFile($event.target.files)">
+    </form> 
+</div>
+<p>Broj reci je:{{totalcount}}</p>

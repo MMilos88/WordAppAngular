@@ -1,0 +1,7 @@
+<div name="text_container">
+   <p class="">Enter text:</p>
+   <textarea class="w3-input w3-border" cols="30" rows="4" [(ngModel)] = "tekst"></textarea>
+   <br/>
+   <button class="w3-btn w3-black" (click) ="countWords($event)">Count Words from entered text</button> 
+</div>
+  <p>Broj reci je:{{totalcount}}</p>

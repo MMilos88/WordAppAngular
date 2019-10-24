@@ -1,0 +1,12 @@
+<div class="w3-margin" style="width: 400px;">
+    <div class="w3-bar w3-black">
+      <a class="w3-bar-item w3-button" href="#" [routerLink]="['/file']">File</a>
+      <a class="w3-bar-item w3-button" href="#" [routerLink]="['/text']">Text</a>
+      <a class="w3-bar-item w3-button" href="#" [routerLink]="['/database']">Database</a>
+    </div> 
+    <div class="w3-container w3-padding-16 w3-white w3-border">
+        <router-outlet></router-outlet>
+
+        <!-- <p class="w3-hide">Broj reci u fajlu je:{{totalcount}}</p> -->
+    </div>
+</div>
